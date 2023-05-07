@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,7 +10,6 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    NgxYoutubePlayerModule,
     AppRoutingModule
   ],
   providers: [],
